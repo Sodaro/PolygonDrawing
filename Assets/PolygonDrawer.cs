@@ -123,8 +123,6 @@ public class PolygonDrawer : MonoBehaviour
         if (vertsPerLine > 1)
             initialOffset = offsetPerLine * (vertsPerLine-1) / 2;
 
-        Debug.Log($"{initialOffset}");
-
         for (int j = 0; j < vertsPerLine; j++)
         {
             List<Vector3> ring = new List<Vector3>();
